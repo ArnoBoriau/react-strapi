@@ -11,15 +11,19 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "title": {
+    "pageTitle": {
       "type": "string",
-      "default": "title",
       "required": true
     },
-    "bodycopy": {
-      "type": "text",
-      "default": "bodycopy",
-      "required": true
+    "header": {
+      "type": "component",
+      "component": "page.header",
+      "repeatable": false
+    },
+    "Section": {
+      "type": "component",
+      "component": "page.section",
+      "repeatable": true
     }
   }
 }

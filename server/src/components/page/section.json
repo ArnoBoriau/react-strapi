@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_page_sections",
+  "info": {
+    "displayName": "Section"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "bodycopy": {
+      "type": "text"
+    }
+  },
+  "config": {}
+}

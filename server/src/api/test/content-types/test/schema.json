@@ -1,0 +1,25 @@
+{
+  "kind": "singleType",
+  "collectionName": "tests",
+  "info": {
+    "singularName": "test",
+    "pluralName": "tests",
+    "displayName": "test"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "default": "test title",
+      "required": true
+    },
+    "bodycopy": {
+      "type": "text",
+      "default": "test bodycopy",
+      "required": true
+    }
+  }
+}
